@@ -188,3 +188,14 @@ main{
   color: var(--White);
   font-size: .75rem;
 }
+
+.white-container button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(var(--Lightslateblue),var(--Lightroyalblue));
+}
+
+@media (max-width:375px){
+  main{
+    flex-direction: column;
+  }
+}
