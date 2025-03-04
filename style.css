@@ -31,6 +31,8 @@ body{
 
 main{
   display: flex;
+  background-color: var(--White);
+  border-radius: 1rem;
 }
 
 .blue-container{
@@ -100,6 +102,89 @@ main{
 }
 
 .white-container{
-  min-width: 160px;
-  background-color: gray;
+  min-width: 250px;
+  background-color: var(--White);
+  border-radius: 1rem;
+  padding: 30px;
+}
+
+.white-container h4{
+  margin-bottom: 20px;
+}
+
+.lightred{
+  background-color: hsla(0, 100%, 67%,.07);
+}
+
+.lightred div span{
+  color: var(--Lightred);
+}
+
+.lightyellow{
+  background-color: hsla(39, 100%, 56%,.07);
+}
+
+.lightyellow div span{
+  color: var(--Orangeyyellow);
+}
+
+.lightgreen{
+  background-color: hsla(166, 100%, 37%,.07);
+}
+
+.lightgreen div span{
+  color: var(--Greenteal);
+}
+
+.lightblue{
+  background-color: hsla(234, 85%, 45%,.07);
+}
+
+.lightblue div span{
+  color: var(--Cobaltblue);
+}
+
+
+.summary-component{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: .75rem;
+}
+
+.summary-component div{
+  display: flex;
+  align-items: center;
+}
+
+.summary-component div img{
+  width: 13px;
+  margin-right: 5px;
+}
+
+.summary-component div span{
+ 
+  font-weight: 500;
+}
+
+.summary-component p{
+
+  font-weight: 500;
+}
+
+.summary-component p span{
+  color: gray;
+}
+
+.white-container button{
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--Darkgrayblue);
+  color: var(--White);
+  font-size: .75rem;
 }
